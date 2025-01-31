@@ -1,0 +1,71 @@
+:root {
+  --purple : rgb(124,32,245);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: whitesmoke;
+  background-color: rgb(22, 22, 22);
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  font-size: 1.2rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 300px;
+}
+
+nav ul li {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px 30px;
+  margin-top: 30px;
+}
+
+.section__left {
+  flex: 1;
+}
+.section__left h1 {
+  font-size: 7rem;
+  line-height: 7rem;
+
+}
+.section__left h3 {
+  font-size: 2.5rem;
+  margin-top: 20px;
+  color: var(--purple);
+}
+.section__left p {
+  margin-top: 10px;
+}
+
+.section__right {
+  flex: 1;
+}
+
+.section__right img {
+  width:100%;
+}
